@@ -11,7 +11,7 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
 - Token bot dari [BotFather](https://t.me/botfather).
 - ID dan kunci Cloudflare.
 - ID admin Anda di Telegram.
-
+- Domain tentunya
 ## ⚙️ Pengaturan
 
 1. Buka file `var.txt`, dan ganti `<...>` dengan nilai yang sesuai:
@@ -23,13 +23,21 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
     CF_ID=<ID Cloudflare Anda>
     CF_KEY=<kunci Cloudflare Anda>
     admin_id=<ID admin Anda>
+    main_domain=<domain anda>
     ```
 
 2. Jalankan skrip Python dengan perintah berikut:
 
     ```
     git clone https://github.com/AutoFTbot/domain
+    ```
+    ```
     cd domain
+    ````
+    ```
+    #instal paket yang ada di requirement.txt
+    ```
+    ```
     python3 domain.py
     ```
 
