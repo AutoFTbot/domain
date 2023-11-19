@@ -38,3 +38,7 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
 Untuk menggunakan bot, kirim pesan `/ipadmin` ke bot. Bot akan meminta Anda untuk mengirimkan IP. Setelah Anda mengirimkan IP, bot akan mendaftarkan domain baru dengan IP tersebut di Cloudflare.
 
 Jika Anda tidak merespons dalam waktu 60 detik, bot akan mengirim pesan timeout.
+
+## 💬 Bantuan dan Dukungan
+
+Jika Anda mengalami kesulitan atau memiliki pertanyaan, jangan ragu untuk menghubungi kami melalui Telegram di [@AutoFTbot](https://t.me/AutoFTbot).
