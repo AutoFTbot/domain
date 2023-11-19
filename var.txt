@@ -1,7 +1,7 @@
-api_id=15995433 #GAK USAH DI HAPUS
-api_hash=6fc6fd0c77e5494c14724442abe46e5e #GAK USAH DI HAPUS
-bot_token=6617696083:AAEbXm7JbDiX3mSzHWeDjHG2_qeC1NqCKxA #TOKEN BOT
-CF_ID=aginazharmhlutpi14@gmail.com #EMAIL CLOUDFLARE
-CF_KEY=07322356ebd504ee6d15f4e5e73ecb9627736 #API KEY GLOBAL CLOUDFLARE
-admin_id=6691212410 #ADMIN ID
-main_domain=jandapirang.my.id #DOMAIN CLOUDFLARE
+api_id=15995433
+api_hash=6fc6fd0c77e5494c14724442abe46e5e
+bot_token=6871410131:AAGBS5zh6W_BjXDw9-RJviAKM9vKwER3NYg
+CF_ID=rendifauzan08@gmail.com
+CF_KEY=94996020b37d0d5e82e246950a47702cc9872
+admin_id=1230626709
+main_domain=cxpricoren.my.id
