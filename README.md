@@ -41,7 +41,7 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
     python3 domain.py
     ```
 
-##service
+## 🔥SERVICE
 
 ```
 cat >/etc/systemd/system/domain.service << EOF
