@@ -41,6 +41,28 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
     python3 domain.py
     ```
 
+##service
+
+```
+cat >/etc/systemd/system/domain.service << EOF
+[Unit]
+Description=domain
+After=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=python3 domain.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl daemon-reload
+systemctl restart domain
+systemctl enable domain
+systemctl status domain
+```
+
 ## 🚀 Penggunaan
 
 Untuk menggunakan bot, kirim pesan `/ipadmin` ke bot. Bot akan meminta Anda untuk mengirimkan IP. Setelah Anda mengirimkan IP, bot akan mendaftarkan domain baru dengan IP tersebut di Cloudflare.
