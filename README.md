@@ -51,7 +51,7 @@ Description=domain
 After=network.target
 
 [Service]
-WorkingDirectory=/root
+WorkingDirectory=/root/domain
 ExecStart=python3 domain.py
 Restart=always
 
