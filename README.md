@@ -35,7 +35,8 @@ Untuk menjalankan bot ini, Anda akan memerlukan beberapa hal berikut:
     cd domain
     ````
     ```
-    #instal paket yang ada di requirement.txt
+    pip3 install -r requirements.txt
+    
     ```
     ```
     python3 domain.py
